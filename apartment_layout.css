@@ -1,0 +1,287 @@
+header {
+    color: #8B5A2B;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+}
+
+#one {
+    text-align: center;
+    font-size: 13px;
+}
+
+#apartment {
+    display: flex;
+    justify-content: center;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    font-size: 13.6px;
+
+}
+
+#links a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+#links button {
+
+    padding: 3px 15px;
+    margin: 6px;
+
+
+}
+
+
+
+main {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+#survey {
+    width: 500px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: #8B5A2B;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#services {
+    width: 466px;
+    height: 40px;
+    background-color: #8B5A2B;
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    font-weight: 800;
+}
+
+table {
+    font-size: 14.6px;
+}
+
+#t1 {
+    background-color: #757575b0;
+}
+
+#t2 {
+    background-color: #fff59d96;
+}
+
+#location {
+    width: 300px;
+    height: 40px;
+    background-color: #8B5A2B;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+#imgLoc {
+    margin-top: 1020;
+}
+
+section {
+    position: relative;
+    bottom: 175px;
+}
+
+#welcome {
+    width: 500px;
+    height: 40px;
+    background-color: #8B5A2B;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#transcript {
+    font-size: 15px;
+}
+
+#galleryHead {
+    height: 40px;
+    background-color: #8B5A2B;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    bottom: 160px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.items {
+    position: relative;
+    right: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 300px;
+
+}
+
+#balcony {
+    width: 100%;
+    background-color: gray;
+    height: 40px;
+}
+
+#bathroom {
+    width: 100%;
+    background-color: gray;
+    height: 40px;
+}
+
+#bedroom {
+    width: 100%;
+    background-color: gray;
+    height: 40px;
+}
+
+#dining {
+    width: 100%;
+    background-color: gray;
+    height: 40px;
+}
+
+#kitchen {
+    width: 100%;
+    background-color: gray;
+    height: 40px;
+}
+
+#living {
+    position: relative;
+    top: 250px;
+    left: 39px;
+}
+
+#l1 {
+    background-color: gray;
+    color: white;
+    width: 220px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#balcImg {
+    width: 100%;
+    height: 80%;
+}
+
+#bathImg {
+    width: 100%;
+    height: 80%;
+}
+
+#bedImg {
+    width: 100%;
+    height: 80%;
+}
+
+#diningImg {
+    width: 100%;
+    height: 80%;
+}
+
+#kitImg {
+    width: 100%;
+    height: 80%;
+}
+
+#livingImg {
+    width: 233px;
+    height: 240px;
+}
+
+footer {
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#bed {
+    font-family: sans-serif;
+    background-color: #8B5A2B;
+    height: 40px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+#p1 {
+    position: relative;
+    left: 450px;
+
+}
+
+#p1 img {
+    height: 463px;
+    width: 477px;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+#p2 {
+    font-family: sans-serif;
+    background-color: #8B5A2B;
+    height: 40px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+
+}
+
+@media (max-width : 400px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #galleryHead {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #living {
+        position: relative;
+        top: 1882px;
+
+    }
+
+    .items {
+        text-align: center;
+    }
+
+    footer {
+        top: 1930px;
+    }
+
+    #welcome {
+        position: relative;
+        top: 530px;
+    }
+}

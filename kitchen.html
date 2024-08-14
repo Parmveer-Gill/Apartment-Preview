@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen</title>
+    <link rel="stylesheet" href="apartment_layout.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>Sandy and Leslie's Apartment</header>
+    <br>
+    <p id="one">Click a Room for detailed view.</p>
+
+    <div id="apartment">
+        <img src="apartmentfloorplan.jpg" alt="Apartment Layout" usemap="#apartment-map">
+        <map name="apartment-map">
+            <area shape="rect" coords="47,8,198 , 158" href="bedroom.html" alt="Bedroom 1">
+            <area shape="rect" coords="209,7,323,135" href="bedroom.html" alt="Bedroom 2">
+            <area shape="rect" coords="250,216,394,392" href="livingroom.html" alt="Living Room">
+            <area shape="rect" coords="420,210,550,372" href="livingroom.html" alt="Living Room">
+            <area shape="circle" coords="406,140,52" href="diningroom.html" alt="DiningRoom">
+        </map>
+    </div>
+
+    <div id="links">
+        <button class="btn btn-secondary btn-sm"> <a href="apartment.html">Apartment </a></button>
+        <button class="btn btn-secondary btn-sm"> <a href="bedroom.html">Bedroom </a></button>
+        <button class="btn btn-secondary btn-sm"> <a href="diningroom.html">Dining Room </a></button>
+        <button class="btn btn-secondary btn-sm"> <a href="kitchen.html">Kitchen </a></button>
+        <button class="btn btn-secondary btn-sm"> <a href="livingroom.html">Living Room </a></button>
+      
+    </div>
+    <br><br>
+
+
+    <div id="bed">Kitchen Detail</div>
+    <div id="p1">
+
+        <img src="kitchen_lg.jpg" alt="Kitchen">
+    </div>
+
+    <div id="p2">Apartment Services</div>
+    <div>
+        <table border="black">
+            <thead>
+                <tr id="t1">
+                    <th>Service</th>
+                    <th>Day/Hours</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr id>
+                    <td>Gym</td>
+                    <td rowspan="2">Monday-Friday 6am - 10pm&nbsp;&nbsp; <br>Saturday 8am - 8pm <br>Sunday 8am - 5pm
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Pool</td>
+                </tr>
+                <tr>
+                    <td>Laundary</td>
+                    <td>24/7</td>
+                </tr>
+                <tr>
+                    <td id="t2" colspan="2">Please do not allow people you do not know how to use these facilities.
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div id="p3" style="font-size: 13px;">
+        For more Information Contact : SandyAndLeslie@example.com <br>
+        &copy; Sandy And Leslie 2023
+    </div>
+
+
+
+</body>
+
+</html>
